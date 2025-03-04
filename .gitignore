@@ -37,4 +37,12 @@ yarn-error.log*
 
 # Temporary rendering files
 *.rendered
-*.rendering 
+*.rendering
+
+# Ignore everything in the 'all' directory
+all/**/*.srt
+all/**/*.mp4
+
+# Ignore specific file types in the 'all' directory
+all/**/*.srt
+all/**/*.mp4 
