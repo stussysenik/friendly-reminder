@@ -29,20 +29,17 @@ yarn-error.log*
 *.swp
 *.swo
 
-# Large media files that shouldn't be version controlled
+# Media and large files
+*.mp4
 *.mp4.tmp
 *.mp4.download
 *.part
 *.temp
+*.srt
 
 # Temporary rendering files
 *.rendered
 *.rendering
 
-# Ignore everything in the 'all' directory
-all/**/*.srt
-all/**/*.mp4
-
-# Ignore specific file types in the 'all' directory
-all/**/*.srt
-all/**/*.mp4 
+# Ignore all content in 'all' directory
+all/ 
